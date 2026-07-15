@@ -28,18 +28,13 @@ A Chinese desktop weather clock for the **ESP32-2432S028R CYD**.
 
 - 5V USB power
 
-### Wiring / 接线
+## Wiring / 接线
 
 | Sensor | ESP32 |
-
 |---|---|
-
 | VCC | 3.3V |
-
 | GND | GND |
-
 | SDA | GPIO 27 |
-
 | SCL | GPIO 22 |
 
 ## Libraries / 依赖库
@@ -64,17 +59,20 @@ A Chinese desktop weather clock for the **ESP32-2432S028R CYD**.
 
 4. Enter your Wi-Fi information:
 
+打开 `ESP32_Weather_Clock.ino`，修改：
+
 ```cpp
+const char* WIFI_NAME = "YOUR_WIFI_NAME";
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
+```
 
-const char* WIFI_NAME = "input your wifi name";
+请勿将真实 Wi-Fi 密码提交到公开仓库。
 
-const char* WIFI_PASSWORD = "input your wifi password";
-
-
+```text
 Board: ESP32 Dev Module
 Upload Speed: 115200
 Partition Scheme: Huge APP
-
+```
 
 Files / 文件
 
