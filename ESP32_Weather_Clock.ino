@@ -16,8 +16,8 @@ Adafruit_SHT31 sht31 = Adafruit_SHT31();
 // =====================================================
 // 只修改这里
 // =====================================================
-const char* WIFI_NAME = "input your wifi name";
-const char* WIFI_PASSWORD = "input your wifi password";
+const char* WIFI_NAME = "YOUR_WIFI_NAME";
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 
 // 北京
 const float LATITUDE = 39.9042;
